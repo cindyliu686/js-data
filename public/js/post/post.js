@@ -10,6 +10,11 @@ app.config(function($stateProvider) {
 				so that the author field of the posts will be automatically 
 				populated
 		*/
+		resolve: {
+			post: function(){
+				return 
+			}
+		}
 	})
 });
 
